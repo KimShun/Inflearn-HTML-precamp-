@@ -1,28 +1,79 @@
-body {
-    width: 1920px;
-    height: 1080px;
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
 }
 
-.padding {
+.main-box {
+    padding: 50px;
+    padding-top: 30px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.mainbox {
+    margin: 0 auto;
     width: 670px;
     height: 960px;
     border-radius: 20px;
-    border: 3px solid aqua;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid #AACDFF;
+    box-shadow: rgba(0, 104, 255, 0.25) 7px 7px 39px 0px;
 }
 
-#title {
-    font-size: 20px;
-    color: blue;
+.sub-box {
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+
+.title {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(0, 104, 255, 1);
+}
+
+.title-2 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: gray;
+}
+
+.user-input {
+    border-top: 0; border-left: 0; border-right: 0;
+    width: 350px;
+    height: 35px;
+    color: #494949; font-size: 17px;
+}
+
+.email-check {
+    width: 100px; height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 15px; color: gray;
+    font-weight: bold;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.user-gender-box {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gender-select {
+    margin: 5px;
+}
+
+.user-input:focus {
+    outline: none;
+}
+
+.email-check:hover {
+    background-color: rgb(199, 196, 196);
 }
