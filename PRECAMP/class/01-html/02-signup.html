@@ -8,12 +8,12 @@
 <body>
     <div class="main-box">
         <div class="sub-box">
-            <div class="title">회원 가입을 위해 <br>정보를 입력해주세요</div><br><br>
+            <div class="title">회원 가입을 위해 <br>정보를 입력해주세요</div>
             <div class="user-box">
                 <div>
                     <div class="title-2">* 이메일</div>
                     <input class="user-input" type="text" id="su_userId">
-                    <button class="email-check">중복체크</button>
+                    <button class="check" id="email-check">중복체크</button>
                 </div>
             </div>
             <div class="user-box">
@@ -28,7 +28,7 @@
                 <div class="title-2">* 비밀번호 확인</div>
                 <input class="user-input" type="password" id="su_userPwCheck">
             </div>
-            <div class="user-box">
+            <div class="user-box-2">
                 <div class="user-gender-box">
                     <div class="gender-select">
                         <input id="radio-man" type="radio" name="gender">
@@ -40,6 +40,31 @@
                     </div>
                 </div>
             </div>
+            <div class="user-box-2">
+                <select class="ISP">
+                    <option selected disabled>통신사</option>
+                    <option>SKT</option>
+                    <option>KT</option>
+                    <option>LGU+</option>
+                    <option>알뜰폰</option>
+                </select>
+                <div>
+                    <input class="user-input-tel" type="text" id="su_telephone" placeholder="하이폰 ' - ' 제외하고 입력해주세요.">
+                    <button class="check" id="tel-check">인증번호</button>
+                </div>
+            </div>
+            <div class="user-box-3">
+                <div>
+                    <input class="user-input-tel" type="text" id="su_telephone_verify">
+                    <button class="check" id="tel-verify">인증확인</button>
+                </div>
+            </div>
+            <div class="user-box-4">
+                <input class="teams-of-use-check" type="checkbox" id="teams-of-use-check">
+                <div class="teams-of-use">이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.</div>
+            </div>
+            <hr>
+            <button class="signup">가입하기</button>
         </div>
     </div>
 </body>

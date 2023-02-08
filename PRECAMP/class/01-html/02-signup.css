@@ -9,14 +9,14 @@
     display: flex;
     margin: 0 auto;
     width: 670px;
-    height: 960px;
+    height: 760px;
     border-radius: 20px;
     border: 1px solid #AACDFF;
     box-shadow: rgba(0, 104, 255, 0.25) 7px 7px 39px 0px;
 }
 
 .sub-box {
-    margin: 50px 50px 50px 50px;
+    margin: 20px 50px 0 50px;
     display: flex;
     flex-direction: column;
 }
@@ -27,10 +27,32 @@
     height: 70px;
 }
 
+.user-box-2 {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.user-box-3 {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.user-box-4 {
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+}
+
 .title {
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
     font-size: 32px;
+    margin-bottom: 20px;
     color: rgba(0, 104, 255, 1);
 }
 
@@ -48,10 +70,11 @@
     color: #494949; font-size: 17px;
 }
 
-.email-check {
+.check {
     width: 100px; height: 30px;
     border: 1px solid gray;
     border-radius: 10px;
+    margin-left: 5px;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 15px; color: gray;
     font-weight: bold;
@@ -66,14 +89,59 @@
     justify-content: center;
 }
 
+.ISP {
+    width: 70px; height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.user-input-tel {
+    border-top: 0; border-left: 0; border-right: 0;
+    width: 270px;
+    height: 30px;
+    color: #494949; font-size: 17px;
+}
+
 .gender-select {
     margin: 5px;
+    margin-bottom: 20px;
+}
+
+.teams-of-use {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.teams-of-use-check {
+    margin-left: 10px; margin-right: 10px;
+}
+
+.signup {
+    width: 470px; height: 75px;
+    margin-top: 25px;
+    border: 1px solid #0068FF;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px; color: #0068FF;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .user-input:focus {
     outline: none;
 }
 
-.email-check:hover {
+.check:hover {
     background-color: rgb(199, 196, 196);
+}
+
+.user-input-tel:focus {
+    outline: none;
+}
+
+.signup:hover {
+    background-color: #d5e6fe;
 }
