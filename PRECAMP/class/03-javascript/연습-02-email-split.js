@@ -1,8 +1,8 @@
-const email = "codecamp@gmail.com"
-// undefined
-email.includes("@")
+const email = "codecamp@gmail.com" //const는 let과 다르게 지정된 값을 절대 바꿀 수 없다.
+// undefined, 
+email.includes("@") //includes는 해당 배열에 포함이 되어있는지를 확인해준다.
 // true
-email.split("@")
+email.split("@") //split은 문자 기준으로 쪼갠다.
 // (2) ['codecamp', 'gmail.com']
 email.split("@")[0]
 // 'codecamp'
