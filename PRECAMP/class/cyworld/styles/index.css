@@ -121,6 +121,7 @@
     align-items: flex-end;
     width: 524px;
     padding: 0px 14px;
+    margin: 1px 0;
 }
 
 .right__header__title, .right__header__setting {
@@ -139,7 +140,7 @@
 
 .right__content__body {
     width: 100%;
-    height: 496px;
+    height: 100%;
     border: 1px solid gray;
     border-radius: 15px;
     margin-left: 5px;
