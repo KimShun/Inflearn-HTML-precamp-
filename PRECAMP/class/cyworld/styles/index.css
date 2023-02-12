@@ -40,8 +40,19 @@
     margin: 3px 0 3px 0;
 }
 
-.visit__count {
-    color: #55B2D4;
+.visit__count__title {
+    font-size: 9px;
+    font-weight: 700;
+    font-family: 'SciFiedBitmap'; 
+}
+
+.visit__count__today {
+    font-size: 11px;
+    color: #ff0000;
+    font-weight: 700;
+}
+
+.visit__count__total {
     font-size: 11px;
     font-weight: 700;
 }
@@ -87,6 +98,12 @@
     margin-bottom: 4px;
 }
 
+.profile__title {
+    color: #999999;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
 .left__content__footer {
     width: 100%;
 }
@@ -119,23 +136,30 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    width: 524px;
+    width: 518px;
+    height: 35px;
     padding: 0px 14px;
-    margin: 1px 0;
-}
-
-.right__header__title, .right__header__setting {
-    color: #55B2D4;
-    font-size: 9px;
-    font-weight: 500;
-    font-family: 'PFStardust';
 }
 
 .right__header__title {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 900;
+    color: #55B2D4;
     font-family: 'MalgunGothic';
     padding-bottom: 7px;
+}
+
+.right__header__setting {
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: 'PFStardust';
+}
+
+.right__header__setting__button {
+    color: #ff6400;
 }
 
 .right__content__body {
@@ -161,4 +185,9 @@ iframe {
 @font-face {
     font-family: 'MalgunGothic'; 
     src: url(../fonts/MalgunGothic.eot);
+}
+
+@font-face {
+    font-family: 'SciFiedBitmap'; 
+    src: url(../fonts/scifibit.ttf);
 }

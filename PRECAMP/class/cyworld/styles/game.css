@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.wrapper__header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 48px;
+}
+
+.wrapper__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__title {
+    color: #55B2D4;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header__subtitle {
+    color: black;
+    font-size: 8px;
+    font-weight: 700;
+    font-family: 'SciFiedBitmap';
+    margin-left: 5px;
+    padding-top: 2px;
+}
+
+.wrapper__header__line {
+    width: 100%;
+    border: 1px solid rgb(182, 182, 182);
+    margin: 6px 0px;
+}
+
+.wrapper__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper__body__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.word__chain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 222px;
+    height: 168px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(202, 202, 202);
+    padding: 20px;
+}
+
+.word__chain__icon {
+    width: 40px;
+    height: 20px;
+    background-image: url(../images/worldchain.png);
+}
+
+.word__chain__name {
+    width: 44px;
+    height: 15px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.word__chain__word {
+    width: 90px;
+    height: 13px;
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+}
+
+.word__chain__input__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.word__chain__input {
+    width: 126px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.word__chain__input__send {
+    width: 38px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+
+.word__chain__result {
+    width: 26px;
+    height: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    color: gray;
+}
+
+.lotto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 222px;
+    height: 168px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(202, 202, 202);
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MalgunGothic'; 
+    src: url(../fonts/MalgunGothic.eot);
+}
+
+@font-face {
+    font-family: 'SciFiedBitmap'; 
+    src: url(../fonts/scifibit.ttf);
+}
+
+.word__chain__input__send:hover {
+    background-color: azure;
+}
