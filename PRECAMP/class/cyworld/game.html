@@ -15,28 +15,29 @@
             </div>
             <div class="wrapper__header__line"></div>
         </div>
-        <div class="wrapper__body">
-            <div class="wrapper__body__content">
-                <div class="word__chain">
-                    <div class="word__chain__icon"></div>
-                    <div class="word__chain__name">끝말잇기</div>
-                    <div class="word__chain__hint">제시어 : 뉴비즈코드</div>
-                    <div class="word__chain__input__box">
-                        <input type="text" class="word__chain__input" id="word__chain__input" placeholder="단어를 입력하세요.">
-                        <button class="word__chain__input__send">검색</button>
-                    </div>
-                    <div class="word__chain__result">결과!</div>
-                </div>
-                <div class="lotto">
-                    <div class="lotto__icon"></div>
-                    <div class="lotto__name">LOTTO</div>
-                    <div class="lotto__hint">버튼을 누르세요.</div>
-                    <div class="lotto__result__box">
-                        <input type="text" class="word__chain__input" id="word__chain__input" placeholder="단어를 입력하세요.">
-                    </div>
-                    <button class="word__chain__input__send">검색</button>
-                </div>
+        <div class="game_container">
+            <img src="./images/worldchain.png">
+            <div class="game__title">끝말잇기</div>
+            <div class="game__subtitle">제시어 : <span id="word">코드캠프</span></div>
+            <div class="word__text">
+                <input class="textbox" id="myword" placeholder="단어를 입력하세요.">
+                <button class="search">검색</button>
             </div>
+            <div id="result" class="word__result">결과!</div>
+        </div>
+        <div class="game_container">
+            <img src="./images/lotto.png">
+            <div class="game__title">LOTTO</div>
+            <div class="game__subtitle">버튼을 누르세요.</div>
+            <div class="lotto__box">
+                <div class="lotto__number" id="num_1">3</div>
+                <div class="lotto__number" id="num_2">6</div>
+                <div class="lotto__number" id="num_3">12</div>
+                <div class="lotto__number" id="num_4">27</div>
+                <div class="lotto__number" id="num_5">29</div>
+                <div class="lotto__number" id="num_6">33</div>
+            </div>
+            <button class="lotto__create">Button</button>
         </div>
     </div>
 </body>
