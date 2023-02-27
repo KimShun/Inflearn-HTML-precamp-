@@ -148,3 +148,11 @@ html, body {
     font-family: 'SciFiedBitmap'; 
     src: url(../fonts/scifibit.ttf);
 }
+
+.search:hover {
+    background-color: #c4c4c4;
+}
+
+.lotto__create:hover {
+    background-color: #c4c4c4;
+}
