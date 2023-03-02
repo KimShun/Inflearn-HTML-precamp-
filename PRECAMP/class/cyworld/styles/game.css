@@ -114,17 +114,16 @@ html, body {
     justify-content: space-around;
     width: 130px;
     height: 21px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #FFE400;
-}
-
-.lotto__number {
     font-size: 10px;
     font-weight: 700;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #FFE400;
+    margin-top: 7px;
+    margin-bottom: 8px;
 }
 
-.lotto__create {
+.lotto__button {
     width: 62px;
     height: 24px;
     font-weight: 700;
@@ -153,6 +152,6 @@ html, body {
     background-color: #c4c4c4;
 }
 
-.lotto__create:hover {
+.lotto__button:hover {
     background-color: #c4c4c4;
 }

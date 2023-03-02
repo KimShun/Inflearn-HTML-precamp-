@@ -43,7 +43,7 @@
 .visit__count__title {
     font-size: 9px;
     font-weight: 700;
-    font-family: 'SciFiedBitmap'; 
+    font-family: 'SciBitMap'; 
 }
 
 .visit__count__today {
@@ -194,6 +194,6 @@ iframe {
 }
 
 @font-face {
-    font-family: 'SciFiedBitmap'; 
-    src: url(../fonts/scifibit.ttf);
+    font-family: 'SciBitMap'; 
+    src: url(../fonts/SciBitMap.ttf);
 }
