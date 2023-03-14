@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <script src="./09-signup_Final.js"></script>
+    <title>회원가입</title>
+</head>
+<body>
+    <div><input type="email" id="email" oninput="signup()" placeholder="이메일을 입력해주세요."></div>
+    <div><input type="password" id="pw1" oninput="signup()" placeholder="비밀번호를 입력해주세요."></div>
+    <div><input type="password" id="pw2" oninput="signup()" placeholder="비밀번호를 다시 입력해주세요."></div>
+    <div>
+        <input type="text" id="phone1" oninput="verify_phone()" maxlength="3">-
+        <input type="text" id="phone2" oninput="verify_phone()" maxlength="4">-
+        <input type="text" id="phone3" oninput="verify_phone()" maxlength="4">
+        <button id="verify_send" disabled="true" onclick="verify()">인증번호 전송</button>
+    </div>
+    <div>
+        <span id="verify_look">000000</span>
+        <span id="verify_timer">3:00</span>
+    </div>
+    <div>
+        <input type="text" id="verify_text" placeholder="인증번호를 입력해주세요.">
+        <button id="verify_check" onclick="verify_check()" disabled="true">인증확인</button>
+    </div>
+    <hr>
+    <button id="submit" disabled="true" onclick="submit()">회원가입</button>
+</body>
+</html>

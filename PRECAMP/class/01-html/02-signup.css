@@ -46,6 +46,7 @@
 .user-box-4 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 15px auto;
 }
 
